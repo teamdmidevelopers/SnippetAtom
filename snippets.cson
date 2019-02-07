@@ -23,4 +23,4 @@
 '.php':
 'php pre':
    'prefix': 'phppre'
-   'body': 'echo '<pre>'.print_r(\$1).'</pre>';\n{$2:exit();}'
+   'body': 'echo '<pre>'.print_r(\$1).'</pre>';\n\${2:exit();}'
